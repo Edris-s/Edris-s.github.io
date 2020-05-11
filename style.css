@@ -1,0 +1,928 @@
+#navbar{
+    background-color: #9acd32;
+    border:#9acd32;
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+#logo{
+    color:#9acd32;
+    font-weight: bold;
+    font-size: 50px;
+}
+#keys li a{
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+#home{
+    background: #9acd32;
+}
+#keys li a:hover{
+    color: white;
+}
+#login li a{
+    color: black;
+    font-weight: bold;
+}
+#login li a:hover{
+    color:white;
+}
+
+/*--------------------------------------end of navabr------------------------------------*/
+/*----------------------------------------------------------------------------------------*/
+/*--------------------------------------home---------------------------------------------*/
+
+#homeback{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: #fff;
+    padding: 0px 0px;
+}
+.home_1 ul{
+    margin: 0px  0px;
+    padding: 30px 5px;
+    text-align: center;
+    
+}
+.home_1 ul li{
+    display: inline-block;
+    
+
+
+}
+.home_1 ul li img{
+    display: inline-block;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 60px;
+}
+
+.home_1 ul li p{
+    color: black;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-right: 80px;
+    padding-left: 80px;
+    text-align: center;
+    text-align-last: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.home_2{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: #fff;
+    padding: 0px 0px;
+    
+}
+.home_2 p{
+   font-size: 20px;
+   text-align: center;
+    padding-right:60px;
+    padding-left: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.home_last{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: #fff;
+    padding: 0px 0px;
+    
+}
+.home_last p a{
+   font-size: 20px;
+   text-align: left;
+    padding-right:60px;
+    padding-left: 220px;
+    text-decoration: none;
+    color: black;
+    text-shadow: #fffcc8;
+    font-weight: bold;
+}
+.home_last p a:hover{
+    color: #9acd32;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*----------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------*/
+/*--------------------------------------icons-------------------------------------------*/
+
+#icons{
+    width: 350px;
+    height: 50px;
+    margin: 20px;
+    position: fixed;
+    padding-top: 160px;
+
+    
+}
+
+.box{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    font-family: 'entypo', sans-serif;
+    color: black;
+    background:#9acd32;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+    display: block;
+    cursor: pointer;
+    margin: 10px;
+    transition: 1s;
+
+}
+
+.box:hover {
+    color:#1c1e21;
+    transform: scale(1.15);
+    transition: 1s;
+}
+
+#facebook:hover{
+    background-color:  rgb( 59, 89, 152);
+    box-shadow: inset 0 0 0 22px rgb( 59, 89, 152);
+    transform: rotate(360deg) scale(1.15);
+    
+}
+
+#instagram:hover{
+    background-color: #f2a104;
+    box-shadow: inset 0 0 0 22px #f2a104;
+    transform: rotate(-360deg) scale(1.15);
+}
+
+/*---------------------------------icons end ---------------------------------*/
+
+/*----------------------------------Arrow ------------------------------------*/
+
+.arrow{
+    width: 350px;
+    height: 40px;
+    margin: 20px;
+    position: fixed;
+}
+
+#up_arrow{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    color: black;
+    background:#9acd32;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+    transition: 1s;
+}
+#up_arrow:hover{
+    background-color: red;
+    box-shadow: inset 10 10 10 22px red;
+    
+}
+
+/*----------------------------------------arrow end --------------------------*/
+
+/*-------------------------------------footer start--------------------------*/
+.footer_main{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: #272727;
+    padding: 20px 0px;
+}
+a{
+    text-align: none;
+    outline: none;
+}
+.footer_icons{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.footer_icons ul{
+    margin: 0px;
+    padding: 0;
+    text-align: center;  
+}
+.footer_icons ul li{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0px 15px ;
+    border-radius: 100%; 
+    background: #9acd32 ;
+
+}
+.footer_icons ul li:hover{
+    background: red;
+}
+.footer_icons ul li:hover a{
+    color: #fff;
+}
+.footer_icons ul li a{
+    color: black;
+    font-size: 25px;
+    display: block; 
+
+}
+.footer_icons ul li a i{
+    line-height: 50px;
+}
+.footer_menu{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+}
+.footer_menu ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+
+}
+.footer_menu ul li{
+    display: inline-block;
+    margin: 0px 15px;
+
+}
+.footer_menu ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600  ;
+    color: white;
+    text-transform: uppercase; 
+    text-decoration: none;
+
+}
+.footer_menu ul li a:hover{
+    color: #9acd32;
+}
+.footer_last{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: #9acd32;
+    padding: 10px;
+
+}
+.footer_last p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align :center;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    
+}
+.footer_last p a{
+    color: #fff;
+}
+.footer_last p a:hover{
+    color: #272727;
+    text-decoration: none;
+}
+/*-----------------------------------------shaeran -----------------------------*/
+.shaeran_main{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: #fff;
+    padding: 10px 10px;
+}
+.shaeran ul{
+    margin: 0px 0px;
+    padding-top: 50px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.shaeran ul li{
+    display: inline-block;
+    padding: 10px;
+    margin-right: 80px;
+    margin-left: 80px;
+    border-radius: 50%; 
+    background: #9acd32
+
+}
+.shaeran_img{
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    margin: 0px 0px ;
+    border-radius: 50%; 
+    background: #9acd32 ;
+
+}
+/*-----------------------------------------shaeran name ----------------------------------------*/
+.shaeran_namm{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: #fff;
+    padding: 0px 0px;
+}
+.shaeran_namm ul{
+    margin: 0px 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+.shaeran_namm ul li{
+    display: inline-block;
+    padding: 10px;
+    margin-right: 130px;
+    margin-left: 130px;
+    color: black;
+}
+.shaeran_name{
+    display: inline-block;
+    margin: 0px 0px ;
+   color: black;
+}
+.shaeran_name:hover{
+    color : #9acd32;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+/*-----------------------------------------shaeran khat 2om ----------------------------------------*/
+#shaeran_2_names ul li{
+    display: inline-block;
+    padding: 10px;
+    margin-right: 91px;
+    margin-left: 115px;
+    color: black;
+}
+/*------------------------------------------------------------------------------------------------*/
+#shaeran_3_names ul li{
+    display: inline-block;
+    padding: 10px;
+    margin-right: 107px;
+    margin-left: 106px;
+    color: black;
+}
+/*------------------------------------------------------------------------------------------------*/
+#shaeran_4_names ul li{
+    display: inline-block;
+    padding: 10px;
+    margin-right: 91px;
+    margin-left: 115px;
+    color: black;
+}
+/*--------------------------------------------shaeran moaser----------------------------------------------*/
+.moaser{
+    width: 100%;
+    height: auto;
+    margin: 0px 0px;
+    background-color: #9acd32;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+
+}
+.moaser p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+/*-----------------------------------------------------------------------------------*/
+#shaeran_moaser_1_names ul li{
+    display: inline-block;
+    padding: 10px;
+    margin-right: 123px;
+    margin-left: 100px;
+    color: black;
+}
+
+
+
+
+/*----------------------------------------takbait-------------------------------------------*/
+.takbait_home{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 0px 0px;
+    background: #fffcc8;
+}
+.alef{
+    width: 100%;
+    height: auto;
+    margin: auto;
+
+}
+
+.alef ul{
+    margin: 0px;
+    padding: 0;
+    text-align:right;  
+}
+.alef ul li {
+    display: inline-block;
+    margin: 0px 15px ;
+    margin-top: 20px;
+    padding-right: 50px;
+    padding-left: 60px;
+
+}
+
+.alef ul li p{
+    color: black;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    display: block; 
+
+}
+/*-------------------------------------------------------------------------------------------*/
+.enwan{
+    width: 100%;
+    height: auto;
+    margin: 0px 0px;
+    padding-right: 80px;
+    background-color:#fdf9a4;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+    text-align: right;
+    display: inline-block;
+
+}
+.enwan p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+/*-------------------------------------------------------------------------------------------*/
+.horof{
+    width: 10%;
+    height: auto;
+    margin: 15px 0px;
+    padding-right: 80px;
+    background-color:#fdf9a4;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+    text-align: right;
+    float:right;
+
+
+}
+.horof p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    
+}
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/*-----------------------------------------kotab ha ------------------------------------------*/
+.kotab_main{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 0px 0px;
+    background: #fff;
+}
+.matn_balayey{
+    width: 100%;
+    height: auto;
+    margin: 10px 0px;
+    background-color:#fdf9a4;
+    padding-top: 7px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+    text-align: center;
+
+
+}
+.matn_balayey p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    
+}
+/*-------------------------------------------------------------------------------------------*/
+
+.kotab ul{
+    margin: 0px 0px;
+    padding-top: 50px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.kotab ul li{
+    display: inline-block;
+    padding: 10px;
+    margin-right: 80px;
+    margin-left: 80px;
+    border-radius: 10%; 
+    background: #fdf9a4 ;
+
+}
+.kotab_img{
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    margin: 0px 0px ;
+    border-radius: 10%; 
+    background: #9acd32 ;
+
+}
+/*-----------------------------------------kotab name ----------------------------------------*/
+.kotab_namm{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: #fff;
+    padding: 0px 0px;
+}
+.kotab_namm ul{
+    margin: 0px 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+.kotab_namm ul li{
+    display: inline-block;
+    padding: 10px;
+    margin-right: 110px;
+    margin-left: 130px;
+    color: black;
+}
+.kotab_name{
+    display: inline-block;
+    margin: 0px 0px ;
+   color: black;
+   font-weight: bold;
+}
+.kotab_name:hover{
+    color : #9acd32;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+/*-------------------------------------------------------------------------------------------*/
+#kotab_2_names ul li{
+    display: inline-block;
+    padding: 10px;
+    margin-right: 127px;
+    margin-left: 95px;
+    color: black;
+}
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/*-----------------------------------------ashaar ------------------------------------------*/
+.ashaar_main{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: #fff;
+    padding: 10px 10px;
+}
+.ashaar ul{
+    margin: 0px 0px;
+    padding-top: 50px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.ashaar ul li{
+    display: inline-block;
+    padding: 10px;
+    margin-right: 80px;
+    margin-left: 80px;
+    border-radius: 10%; 
+    background: #9acd32
+
+}
+.ashaar_img{
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    margin: 0px 0px ;
+    border-radius: 10%; 
+    background: #9acd32 ;
+
+}
+/*-----------------------------------------shaeran name ----------------------------------------*/
+.ashaar_namm{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: #fff;
+    padding: 0px 0px;
+}
+.ashaar_namm ul{
+    margin: 0px 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+.ashaar_namm ul li{
+    display: inline-block;
+    padding: 10px;
+    margin-right: 130px;
+    margin-left: 130px;
+    color: black;
+}
+.ashaar_name{
+    display: inline-block;
+    margin: 0px 0px ;
+   color: black;
+}
+.ashaar_name:hover{
+    color : #9acd32;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+/*-----------------------------------------shaeran khat 2om ----------------------------------------*/
+#ashaar_2_names ul li{
+    display: inline-block;
+    padding: 10px;
+    margin-right: 91px;
+    margin-left: 115px;
+    color: black;
+}
+/*------------------------------------------------------------------------------------------------*/
+#ashaar_3_names ul li{
+    display: inline-block;
+    padding: 10px;
+    margin-right: 107px;
+    margin-left: 106px;
+    color: black;
+}
+/*------------------------------------------------------------------------------------------------*/
+#ashaar_4_names ul li{
+    display: inline-block;
+    padding: 10px;
+    margin-right: 91px;
+    margin-left: 115px;
+    color: black;
+}
+/*--------------------------------------------shaeran moaser----------------------------------------------*/
+.moaser_ashaar{
+    width: 100%;
+    height: auto;
+    margin: 0px 0px;
+    background-color: #9acd32;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+
+}
+.moaser_ashaar p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+/*-----------------------------------------------------------------------------------*/
+#ashaar_moaser_1_names ul li{
+    display: inline-block;
+    padding: 10px;
+    margin-right: 123px;
+    margin-left: 100px;
+    color: black;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/*----------------------------------------- dar bare maa -------------------------------------*/
+.darbara_main{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: #fffcc8;
+    padding: 0px 0px;
+
+}
+.darbara{
+    text-align: center;
+    padding: 30px 30px;
+}
+.darbara p{
+    width: 90%;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    background: #f2a104;
+    display: inline-block;
+    padding : 20px 20px 20px 20px;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/*----------------------------------------- bedeeel -------------------------------------*/
+.bedel_main{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: #fffcc8;
+    padding: 0px 0px;
+}
+.bedel{
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+}
+.bedel p{
+    width: 90%;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    background: #fbc65a;
+    display: inline-block;
+    padding : 15px 0px 15px 0px;
+}
+/*-------------------------------------------------------------------------------------------*/
+.bedel_name{
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+}
+.bedel_name p{
+    width: 90%;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    background: #ffd98c;
+    display: inline-block;
+    padding : 10px 60px 10px 60px;
+    text-align: right;
+}
+/*-------------------------------------------------------------------------------------------*/
+.bedel_takhalos{
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+}
+.bedel_takhalos p{
+    width: 90%;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    background: #fbc65a;
+    display: inline-block;
+    padding : 10px 60px 10px 60px;
+    text-align: right;
+}
+/*-------------------------------------------------------------------------------------------*/
+.bedel_Fname{
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+}
+.bedel_Fname p{
+    width: 90%;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    background: #ffd98c;
+    display: inline-block;
+    padding : 10px 60px 10px 60px;
+    text-align: right;
+}
+/*-------------------------------------------------------------------------------------------*/
+.bedel_bday{
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+}
+.bedel_bday p{
+    width: 90%;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    background: #fbc65a;
+    display: inline-block;
+    padding : 10px 60px 10px 60px;
+    text-align: right;
+}
+/*-------------------------------------------------------------------------------------------*/
+.bedel_wafat{
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+}
+.bedel_wafat p{
+    width: 90%;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    background: #ffd98c;
+    display: inline-block;
+    padding : 10px 60px 10px 60px;
+    text-align: right;
+}
+/*-------------------------------------------------------------------------------------------*/
+.bedel_melyat{
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+}
+.bedel_melyat p{
+    width: 90%;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    background: #fbc65a;
+    display: inline-block;
+    padding : 10px 60px 10px 60px;
+    text-align: right;
+}
+/*-------------------------------------------------------------------------------------------*/
+.bedel_sokonat{
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+}
+.bedel_sokonat p{
+    width: 90%;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    background: #ffd98c;
+    display: inline-block;
+    padding : 10px 60px 10px 60px;
+    text-align: right;
+}
+/*-------------------------------------------------------------------------------------------*/
+.bedel_kotab{
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+}
+.bedel_kotab p{
+    width: 90%;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    background: #fbc65a;
+    display: inline-block;
+    padding : 10px 60px 10px 60px;
+    text-align: right;
+}
+/*-------------------------------------------------------------------------------------------*/
+.bedel_asaar_elmi{
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+}
+.bedel_asaar_elmi p{
+    width: 90%;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    background: #ffd98c;
+    display: inline-block;
+    padding : 10px 60px 10px 60px;
+    text-align: right;
+}
+/*-------------------------------------------------------------------------------------------*/
+.bedel_marefe_kamil{
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+}
+.bedel_marefe_kamil p{
+    width: 90%;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    background: #fbc65a;
+    display: inline-block;
+    padding : 10px 30px 10px 30px;
+    text-align: center;
+}
+/*-------------------------------------------------------------------------------------------*/
+.bedel_namoni_kalam{
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+}
+.bedel_namoni_kalam p{
+    width: 90%;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    background: #ffd98c;
+    display: inline-block;
+    padding : 10px 30px 10px 30px;
+    text-align: center;
+}
+/*-------------------------------------------------------------------------------------------*/
+.bedel_manabe{
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+}
+.bedel_manabe p{
+    width: 90%;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    background: #fbc65a;
+    display: inline-block;
+    padding : 10px 60px 10px 60px;
+    text-align: right;
+}
+/*-------------------------------------------------------------------------------------------*/
