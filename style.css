@@ -213,96 +213,53 @@ a{
     color: #272727;
     text-decoration: none;
 }
-/*-----------------------------------------shaeran -----------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/*-----------------------------------------shaeran ------------------------------------------*/
 .shaeran_main{
     width: 100%;
     height: auto;
     margin: auto;
     background: #fff;
     padding: 10px 10px;
+    text-align: center;
+}
+.shaeran{
+    display: inline-block;
 }
 .shaeran ul{
-    margin: 0px 0px;
-    padding-top: 50px;
-    padding-bottom: 5px;
+    display: inline-block;
     text-align: center;
 }
 .shaeran ul li{
     display: inline-block;
-    padding: 10px;
-    margin-right: 80px;
-    margin-left: 80px;
-    border-radius: 50%; 
-    background: #9acd32
+    padding: 20px 80px 0px 80px;
+}
+.shaeran ul li div {
+
+    padding: 8px ;
 
 }
-.shaeran_img{
-    display: inline-block;
-    width: 120px;
-    height: 120px;
-    margin: 0px 0px ;
-    border-radius: 50%; 
-    background: #9acd32 ;
 
-}
-/*-----------------------------------------shaeran name ----------------------------------------*/
-.shaeran_namm{
-    width: 100%;
-    height: auto;
-    margin: auto;
-    background: #fff;
-    padding: 0px 0px;
-}
-.shaeran_namm ul{
-    margin: 0px 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+.shaeran ul li div img{
+    width: 150px;
+    height: 150px;
     text-align: center;
-}
-.shaeran_namm ul li{
-    display: inline-block;
+    border-radius: 50%;
     padding: 10px;
-    margin-right: 130px;
-    margin-left: 130px;
-    color: black;
-}
-.shaeran_name{
-    display: inline-block;
-    margin: 0px 0px ;
-   color: black;
-}
-.shaeran_name:hover{
-    color : #9acd32;
-    cursor: pointer;
-    text-decoration: none;
+    background: #9acd32;
 
 }
-/*-----------------------------------------shaeran khat 2om ----------------------------------------*/
-#shaeran_2_names ul li{
-    display: inline-block;
-    padding: 10px;
-    margin-right: 91px;
-    margin-left: 115px;
+.shaeran ul li div a{
     color: black;
+    text-decoration: none;
+    padding: 30px 0px 0px 0px;
 }
-/*------------------------------------------------------------------------------------------------*/
-#shaeran_3_names ul li{
-    display: inline-block;
-    padding: 10px;
-    margin-right: 107px;
-    margin-left: 106px;
-    color: black;
+.shaeran ul li div a:hover{
+    color: #9acd32;
 }
-/*------------------------------------------------------------------------------------------------*/
-#shaeran_4_names ul li{
-    display: inline-block;
-    padding: 10px;
-    margin-right: 91px;
-    margin-left: 115px;
-    color: black;
-}
-/*--------------------------------------------shaeran moaser----------------------------------------------*/
-.moaser{
+/*-------------------------------------------- matn shaeran moaser----------------------------------------------*/
+.moaser_shaeran{
     width: 100%;
     height: auto;
     margin: 0px 0px;
@@ -314,25 +271,79 @@ a{
     display: inline-block;
 
 }
-.moaser p{
+.moaser_shaeran p{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     font-size: 14px;
 
 }
-/*-----------------------------------------------------------------------------------*/
-#shaeran_moaser_1_names ul li{
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/*----------------------------------------- ashaar ------------------------------------------*/
+.ashaar_main{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: #fff;
+    padding: 10px 10px;
+    text-align: center;
+}
+.ashaar{
     display: inline-block;
-    padding: 10px;
-    margin-right: 123px;
-    margin-left: 100px;
-    color: black;
+}
+.ashaar ul{
+    display: inline-block;
+    text-align: center;
+}
+.ashaar ul li{
+    display: inline-block;
+    padding: 20px 80px 0px 80px;
+}
+.ashaar ul li div {
+
+    padding: 8px ;
+
 }
 
+.ashaar ul li div img{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    border-radius: 10%;
+    padding: 13px;
+    background: #9acd32;
 
+}
+.ashaar ul li div a{
+    color: black;
+    text-decoration: none;
+    padding: 30px 0px 0px 0px;
+}
+.ashaar ul li div a:hover{
+    color: #9acd32;
+}
+/*-------------------------------------------- matn ashaar moaser----------------------------------------------*/
+.moaser_ashaar{
+    width: 100%;
+    height: auto;
+    margin: 0px 0px;
+    background-color: #9acd32;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
 
+}
+.moaser_ashaar p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
 
-/*----------------------------------------takbait-------------------------------------------*/
+}
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/*----------------------------------------- tak bait ------------------------------------------*/
 .takbait_home{
     width: 100%;
     height: auto;
@@ -438,188 +449,39 @@ a{
     
 }
 /*-------------------------------------------------------------------------------------------*/
-
+.kotab{
+    display: inline-block;
+}
 .kotab ul{
-    margin: 0px 0px;
-    padding-top: 50px;
-    padding-bottom: 5px;
+    display: inline-block;
     text-align: center;
 }
 .kotab ul li{
     display: inline-block;
-    padding: 10px;
-    margin-right: 80px;
-    margin-left: 80px;
-    border-radius: 10%; 
-    background: #fdf9a4 ;
+    padding: 20px 80px 0px 80px;
+}
+.kotab ul li div {
+
+    padding: 8px ;
 
 }
-.kotab_img{
-    display: inline-block;
-    width: 120px;
-    height: 120px;
-    margin: 0px 0px ;
-    border-radius: 10%; 
-    background: #9acd32 ;
 
-}
-/*-----------------------------------------kotab name ----------------------------------------*/
-.kotab_namm{
-    width: 100%;
-    height: auto;
-    margin: auto;
-    background: #fff;
-    padding: 0px 0px;
-}
-.kotab_namm ul{
-    margin: 0px 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+.kotab ul li div img{
+    width: 150px;
+    height: 150px;
     text-align: center;
-}
-.kotab_namm ul li{
-    display: inline-block;
+    border-radius: 10%;
     padding: 10px;
-    margin-right: 110px;
-    margin-left: 130px;
+    background: #ffd98c;
+
+}
+.kotab ul li div a{
     color: black;
-}
-.kotab_name{
-    display: inline-block;
-    margin: 0px 0px ;
-   color: black;
-   font-weight: bold;
-}
-.kotab_name:hover{
-    color : #9acd32;
-    cursor: pointer;
     text-decoration: none;
-
+    padding: 30px 0px 0px 0px;
 }
-/*-------------------------------------------------------------------------------------------*/
-#kotab_2_names ul li{
-    display: inline-block;
-    padding: 10px;
-    margin-right: 127px;
-    margin-left: 95px;
-    color: black;
-}
-/*-------------------------------------------------------------------------------------------*/
-/*-------------------------------------------------------------------------------------------*/
-/*-----------------------------------------ashaar ------------------------------------------*/
-.ashaar_main{
-    width: 100%;
-    height: auto;
-    margin: auto;
-    background: #fff;
-    padding: 10px 10px;
-}
-.ashaar ul{
-    margin: 0px 0px;
-    padding-top: 50px;
-    padding-bottom: 5px;
-    text-align: center;
-}
-.ashaar ul li{
-    display: inline-block;
-    padding: 10px;
-    margin-right: 80px;
-    margin-left: 80px;
-    border-radius: 10%; 
-    background: #9acd32
-
-}
-.ashaar_img{
-    display: inline-block;
-    width: 120px;
-    height: 120px;
-    margin: 0px 0px ;
-    border-radius: 10%; 
-    background: #9acd32 ;
-
-}
-/*-----------------------------------------shaeran name ----------------------------------------*/
-.ashaar_namm{
-    width: 100%;
-    height: auto;
-    margin: auto;
-    background: #fff;
-    padding: 0px 0px;
-}
-.ashaar_namm ul{
-    margin: 0px 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    text-align: center;
-}
-.ashaar_namm ul li{
-    display: inline-block;
-    padding: 10px;
-    margin-right: 130px;
-    margin-left: 130px;
-    color: black;
-}
-.ashaar_name{
-    display: inline-block;
-    margin: 0px 0px ;
-   color: black;
-}
-.ashaar_name:hover{
-    color : #9acd32;
-    cursor: pointer;
-    text-decoration: none;
-
-}
-/*-----------------------------------------shaeran khat 2om ----------------------------------------*/
-#ashaar_2_names ul li{
-    display: inline-block;
-    padding: 10px;
-    margin-right: 91px;
-    margin-left: 115px;
-    color: black;
-}
-/*------------------------------------------------------------------------------------------------*/
-#ashaar_3_names ul li{
-    display: inline-block;
-    padding: 10px;
-    margin-right: 107px;
-    margin-left: 106px;
-    color: black;
-}
-/*------------------------------------------------------------------------------------------------*/
-#ashaar_4_names ul li{
-    display: inline-block;
-    padding: 10px;
-    margin-right: 91px;
-    margin-left: 115px;
-    color: black;
-}
-/*--------------------------------------------shaeran moaser----------------------------------------------*/
-.moaser_ashaar{
-    width: 100%;
-    height: auto;
-    margin: 0px 0px;
-    background-color: #9acd32;
-    padding-top: 5px;
-    padding-bottom: 3px;
-    border-radius: 10px;
-    text-align: center;
-    display: inline-block;
-
-}
-.moaser_ashaar p{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: bold;
-    font-size: 14px;
-
-}
-/*-----------------------------------------------------------------------------------*/
-#ashaar_moaser_1_names ul li{
-    display: inline-block;
-    padding: 10px;
-    margin-right: 123px;
-    margin-left: 100px;
-    color: black;
+.kotab ul li div a:hover{
+    color: #f2a104;
 }
 
 /*-------------------------------------------------------------------------------------------*/
