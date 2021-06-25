@@ -313,7 +313,7 @@ a{
 }
 .ashaar ul li{
     display: inline-block;
-    padding: 20px 80px 0px 40px;
+    padding: 20px 60px 0px 60px;
 }
 .ashaar ul li div {
 
@@ -392,7 +392,7 @@ a{
 
 .alef ul li p{
     color: black;
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
     display: block; 
 
@@ -402,12 +402,12 @@ a{
     width: 100%;
     height: auto;
     margin: 0px 0px;
-    padding-right: 80px;
+   
     background-color:#fdf9a4;
     padding-top: 5px;
     padding-bottom: 3px;
     border-radius: 10px;
-    text-align: right;
+    text-align: center;
     display: inline-block;
 
 }
@@ -415,6 +415,8 @@ a{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     font-size: 14px;
+    padding-right: 80px;
+    padding-left: 80px;
 
 }
 /*-------------------------------------------------------------------------------------------*/
@@ -422,12 +424,12 @@ a{
     width: 10%;
     height: auto;
     margin: 15px 0px;
-    padding-right: 80px;
+    padding-right: 50px;
+    padding-left: 30px;
     background-color:#fdf9a4;
     padding-top: 5px;
     padding-bottom: 3px;
     border-radius: 10px;
-    text-align: right;
     float:right;
 
 
@@ -436,6 +438,7 @@ a{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     font-size: 14px;
+    text-align: center;
     
 }
 /*-------------------------------------------------------------------------------------------*/
